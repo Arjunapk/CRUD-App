@@ -1,7 +1,7 @@
-GET http://localhost:3000/crud/user-details/
+GET http://localhost:3030/crud/user-details/
 ###
 
-POST http://localhost:3000/crud/create-user/
+POST http://localhost:3030/crud/create-user/
 Content-Type: application/json
 
 {
@@ -14,7 +14,7 @@ Content-Type: application/json
 }
 ###
 
-POST http://localhost:3000/crud/update-user/3
+POST http://localhost:3030/crud/update-user/3
 Content-Type: application/json
 
 {
@@ -26,4 +26,4 @@ Content-Type: application/json
 }
 ###
 
-DELETE http://localhost:3000/crud/delete-user/3
+DELETE http://localhost:3030/crud/delete-user/3

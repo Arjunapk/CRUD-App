@@ -10,6 +10,7 @@ app.use(express.json())
 
 const dbPath = path.join(__dirname, 'crudDatabase.db')
 let db = null
+const PORT = process.env.PORT || 3030
 
 const initializeDBAndServer = async () => {
     try {
@@ -17,8 +18,8 @@ const initializeDBAndServer = async () => {
             filename: dbPath,
             driver: sqlite3.Database,
         })
-        app.listen(3000, () => {
-            console.log("Server Running at http://localhost:3000/")
+        app.listen(PORT, () => {
+            console.log("Server Running at http://localhost:3030/")
         })
     } catch (error) {
         console.log(`DB Error: ${error}`)

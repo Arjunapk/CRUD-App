@@ -1,0 +1,29 @@
+GET http://localhost:3000/crud/user-details/
+###
+
+POST http://localhost:3000/crud/create-user/
+Content-Type: application/json
+
+{
+    "id": 4,
+    "name": "subash",
+    "gender": "male",
+    "email": "dfjdfk",
+    "mobile_number": 8015298258,
+    "dob": "25/03/2000"
+}
+###
+
+POST http://localhost:3000/crud/update-user/3
+Content-Type: application/json
+
+{
+    "name": "praksh",
+    "gender": "male",
+    "email": "dfjdfk",
+    "mobile_number": 9965716958,
+    "dob": "25/03/2000"
+}
+###
+
+DELETE http://localhost:3000/crud/delete-user/3

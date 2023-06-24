@@ -1,5 +1,6 @@
 const { response } = require('express')
 const express = require('express')
+const cors = require('cors')
 const { request } = require('http')
 const path = require('path')
 const {open} = require('sqlite')

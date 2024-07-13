@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Arjunapk_CRUD_App_1720865241553-push-trigger-input-set
+  identifier: Build_Arjunapk_CRUD_App_1720865241553pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Node_App
+  pipeline:
+    identifier: Build_Arjunapk_CRUD_App_1720865241553
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

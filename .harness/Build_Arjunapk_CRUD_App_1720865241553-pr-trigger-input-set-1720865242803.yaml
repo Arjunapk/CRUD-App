@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Arjunapk_CRUD_App_1720865241553-pr-trigger-input-set
+  identifier: Build_Arjunapk_CRUD_App_1720865241553prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Node_App
+  pipeline:
+    identifier: Build_Arjunapk_CRUD_App_1720865241553
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
